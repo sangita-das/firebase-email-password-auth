@@ -52,7 +52,7 @@ const handleRegister = event => {
         const user = result.user;
         console.log(user);
         setSuccess(true);
-        form.reset();
+        form.rset();
         varifyEmail();
         updateUserName(name);
     })
